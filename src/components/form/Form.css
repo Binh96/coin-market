@@ -1,0 +1,74 @@
+.hud-container {
+  min-height: 100vh;
+  background: #0a0f1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hud-box {
+  background: #0d1427;
+  border: 1px solid cyan;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  padding: 32px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.hud-title {
+  color: cyan;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  letter-spacing: 2px;
+}
+
+.hud-field {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.hud-label {
+  display: block;
+  color: #80ffff;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.hud-input {
+  width: 100%;
+  padding: 10px 14px;
+  background: #0a0f1c;
+  border: 1px solid cyan;
+  border-radius: 8px;
+  color: #e0ffff;
+  outline: none;
+  box-shadow: inset 0 0 8px rgba(0, 255, 255, 0.3);
+}
+
+.hud-input:focus {
+  border-color: #00e0ff;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.6);
+}
+
+.hud-action {
+  margin-top: 24px;
+}
+
+.hud-button {
+  background: cyan;
+  color: #0d1427;
+  font-weight: bold;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.6);
+  transition: background 0.2s ease-in-out;
+}
+
+.hud-button:hover {
+  background: #00e0ff;
+}

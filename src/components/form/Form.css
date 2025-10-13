@@ -1,19 +1,15 @@
 .hud-container {
-  min-height: 100vh;
+  height: 100%;
   background: #0a0f1c;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .hud-box {
   background: #0d1427;
   border: 1px solid cyan;
   border-radius: 16px;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
   padding: 32px;
   width: 100%;
-  max-width: 400px;
   text-align: center;
 }
 
@@ -28,6 +24,7 @@
 .hud-field {
   margin-bottom: 20px;
   text-align: left;
+  width: 100%;
 }
 
 .hud-label {

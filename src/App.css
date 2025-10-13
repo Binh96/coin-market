@@ -1,0 +1,18 @@
+.col-height {
+  height: 250px;
+}
+
+.app-container {
+  background: #0a0f1c;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 50px;
+  row-gap: 20px;
+  padding: 20px;
+}
+
+.chart-container {
+  grid-column: 2 / span 2;
+}

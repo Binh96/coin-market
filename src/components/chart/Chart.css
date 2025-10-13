@@ -1,0 +1,9 @@
+.chart-box {
+  max-width: 100%;
+  background-color: #0d1427;
+  border: 1px solid cyan;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,255,255,0.5);
+  padding: 16px;
+  height: 100%;
+}
